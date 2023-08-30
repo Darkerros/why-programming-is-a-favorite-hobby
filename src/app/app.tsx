@@ -8,7 +8,7 @@ function App() {
   return (
     <Routes>
       <Route element={<MainLayout/>}>
-        <Route index element={<MainPage/>} />
+        <Route path={"/"} element={<MainPage/>} />
         <Route path={'/activity'} element={<JsActivityPage/>} />
       </Route>
     </Routes>
